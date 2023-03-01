@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fivedp">5dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="form_view_radius">16dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="login_form_border">1dp</dimen>
+    <dimen name="tendp">10dp</dimen>
+    <dimen name="_32dp">32dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_45dp">45dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+</resources>

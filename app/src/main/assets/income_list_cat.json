@@ -1,0 +1,12 @@
+{
+   "status":"success",
+   "data":[
+      "Rental",
+      "Grants",
+      "Refunds",
+      "Salary",
+      "Sale",
+      "Coupons",
+      "Others"
+   ]
+}

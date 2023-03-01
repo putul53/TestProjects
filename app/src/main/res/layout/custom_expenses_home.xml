@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linear_expense_holder"
+        android:padding="@dimen/tendp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/_32dp"
+            android:layout_height="@dimen/_32dp"
+            android:src="@drawable/expense"
+            android:layout_gravity="center_vertical"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/_5dp">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/titleText"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/black"
+                android:text="Expense"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/dateText"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="12sp"
+                android:text="date"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginHorizontal="@dimen/_5dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:id="@+id/expenseAmountText"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:text="xxxxxx"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:background="@color/colorGrey"/>
+</LinearLayout>

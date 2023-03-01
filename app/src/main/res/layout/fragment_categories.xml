@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ProgressFragment">
+
+    <LinearLayout
+        android:layout_above="@+id/generateReport"
+        android:layout_alignParentTop="true"
+        android:id="@+id/expenseLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expenseHolder"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:paddingVertical="@dimen/tendp"
+                android:background="@drawable/button_selector"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@drawable/text_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="Expense"/>
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/button_selector"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/incomeHolder"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@drawable/text_selector"
+                    android:fontFamily="@font/lato_bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Income"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1dp"
+            android:background="@color/colorGrey"/>
+
+        <include
+            layout="@layout/custom_no_data"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/expenseRecyclerView"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:padding="@dimen/tendp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Generate Report"
+        android:id="@+id/generateReport"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

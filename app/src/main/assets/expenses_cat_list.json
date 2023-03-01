@@ -1,0 +1,13 @@
+{
+   "status":"success",
+   "data":[
+      "Food",
+      "Clothing",
+      "Fruits",
+      "Shopping",
+      "Travelling",
+      "Home",
+      "Bill Payment",
+      "Medical"
+   ]
+}

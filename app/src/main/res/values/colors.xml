@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#0A78C7</color>
+    <color name="colorPrimaryDark">#0A78C7</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBack">#F3F1F1</color>
+
+    <color name="playbackControlBackground">#CC000000</color>
+    <color name="playTint">#cc63c866</color>
+    <color name="pauseTint">#ccc76185</color>
+    <color name="playerControlText">#cca2a2a2</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackLight">#4E4E4E</color>
+    <color name="colorGrey">#CCCCCC</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorView">#D1D1D1</color>
+    <color name="colorRed">#C52020</color>
+    <color name="colorRedLight">#11F39898</color>
+    <color name="colorBlueDark">#0A78C7</color>
+    <color name="colorGreen">#11BE1A</color>
+    <color name="colorLightGreen">#E9F8EA</color>
+    <color name="colorBlueLight">#132AB6</color>
+
+    <color name="colorTest">#A3C4F3F3</color>
+    <color name="colorPurple">#7E00CC</color>
+
+    <color name="black_overlay">#1D000000</color>
+</resources>
